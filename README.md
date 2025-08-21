@@ -2,12 +2,28 @@
 
 A comprehensive mobile application built with React Native for iOS and Android, featuring location-based services with MapmyIndia and Google Maps integration.
 
-## 🏗️ Project Structure
+## 🏗️ Repository Structure
 
+This project has been split into separate repositories for better maintainability:
+
+### 📱 Mobile Application
+**Repository**: [location-app-mobile](https://github.com/pranjal255/location-app-mobile)
+- React Native application for iOS and Android
+- MapmyIndia and Google Maps integration
+- Real-time location tracking and geofencing
+- Cross-platform UI components
+
+### 🔧 Backend API
+**Repository**: [location-app-backend](https://github.com/pranjal255/location-app-backend)
+- Node.js backend server with Express/NestJS
+- PostgreSQL database with PostGIS extension
+- RESTful API endpoints
+- Authentication and real-time services
+
+### 📁 Supporting Files
+This repository contains:
 ```
 location-app-project/
-├── mobile-app/          # React Native mobile application
-├── backend/             # Node.js backend server
 ├── database/            # PostgreSQL database configurations
 ├── cloud-config/        # AWS/GCP deployment configurations
 ├── docs/                # Project documentation
